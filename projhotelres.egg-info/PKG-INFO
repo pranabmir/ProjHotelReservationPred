@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: projhotelres
+Version: 0.1
+Author: pranab
+Requires-Dist: pandas
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: requires-dist
