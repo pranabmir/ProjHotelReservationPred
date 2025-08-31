@@ -9,5 +9,9 @@ Requires-Dist: scikit-learn
 Requires-Dist: pyyaml
 Requires-Dist: matplotlib
 Requires-Dist: seaborn
+Requires-Dist: statsmodels
+Requires-Dist: imblearn
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
 Dynamic: author
 Dynamic: requires-dist
