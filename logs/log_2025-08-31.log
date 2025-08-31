@@ -1,0 +1,9 @@
+2025-08-31 16:25:03,801 - INFO - Succesfully read YAML file
+2025-08-31 16:25:03,803 - INFO - Data Ingestion started with proj_hotel_reservation_pred and file is proj_hotel_reservation_pred
+2025-08-31 16:25:03,803 - INFO - Starting data ingestion process
+2025-08-31 16:25:07,927 - INFO - CSV file is successfully downloaded to artifacts/raw\raw.csv
+2025-08-31 16:25:07,928 - INFO - Starting the train-test splitting
+2025-08-31 16:25:08,261 - INFO - Train data saved to artifacts/raw\train.csv
+2025-08-31 16:25:08,262 - INFO - Test data saved to artifacts/raw\test.csv
+2025-08-31 16:25:08,264 - INFO - Data ingestion completed
+2025-08-31 16:25:08,264 - INFO - data Ingestion completed
