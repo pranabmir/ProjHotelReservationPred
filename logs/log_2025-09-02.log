@@ -1,0 +1,36 @@
+2025-09-02 00:43:26,603 - INFO - Succesfully read YAML file
+2025-09-02 00:43:26,603 - INFO - Loading Data from Raw directory
+2025-09-02 00:43:26,603 - INFO - Loading data
+2025-09-02 00:43:26,666 - INFO - Loading data
+2025-09-02 00:43:26,682 - INFO - Starting Data Processing Step
+2025-09-02 00:43:26,682 - INFO - Dropping the Columns
+2025-09-02 00:43:26,702 - INFO - applying label encoding
+2025-09-02 00:43:26,712 - INFO - Label mappings are
+2025-09-02 00:43:26,712 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-09-02 00:43:26,712 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-09-02 00:43:26,712 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-09-02 00:43:26,712 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-09-02 00:43:26,712 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-09-02 00:43:26,712 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-09-02 00:43:26,712 - INFO - Starting Data Processing Step
+2025-09-02 00:43:26,712 - INFO - Dropping the Columns
+2025-09-02 00:43:26,712 - INFO - applying label encoding
+2025-09-02 00:43:26,728 - INFO - Label mappings are
+2025-09-02 00:43:26,728 - INFO - type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2025-09-02 00:43:26,728 - INFO - required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-09-02 00:43:26,728 - INFO - room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-09-02 00:43:26,728 - INFO - market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-09-02 00:43:26,728 - INFO - repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-09-02 00:43:26,728 - INFO - booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-09-02 00:43:26,728 - INFO - Handing Imabalanced data
+2025-09-02 00:43:28,353 - INFO - Data Balanced success
+2025-09-02 00:43:28,353 - INFO - Handing Imabalanced data
+2025-09-02 00:43:28,376 - INFO - Data Balanced success
+2025-09-02 00:43:28,376 - INFO - Starting Feature Selection step
+2025-09-02 00:43:31,722 - INFO - Top 10 Features are ['lead_time', 'no_of_special_requests', 'avg_price_per_room', 'arrival_month', 'arrival_date', 'market_segment_type', 'no_of_week_nights', 'no_of_weekend_nights', 'type_of_meal_plan', 'room_type_reserved'] 
+2025-09-02 00:43:31,722 - INFO - Feature Selection Completed
+2025-09-02 00:43:31,722 - INFO - Save data in processed folder
+2025-09-02 00:43:31,922 - INFO - Data Save successfully to artifacts/processed\processed_train.csv
+2025-09-02 00:43:31,922 - INFO - Save data in processed folder
+2025-09-02 00:43:31,955 - INFO - Data Save successfully to artifacts/processed\processed_test.csv
+2025-09-02 00:43:31,955 - INFO - Data processing done successfully
