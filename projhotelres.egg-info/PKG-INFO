@@ -13,5 +13,6 @@ Requires-Dist: statsmodels
 Requires-Dist: imblearn
 Requires-Dist: xgboost
 Requires-Dist: lightgbm
+Requires-Dist: mlflow
 Dynamic: author
 Dynamic: requires-dist
