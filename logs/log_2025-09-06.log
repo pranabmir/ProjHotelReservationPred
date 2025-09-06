@@ -1,0 +1,18 @@
+2025-09-06 21:50:06,027 - INFO - Starting model training pipeline
+2025-09-06 21:50:06,028 - INFO - loading training data from artifacts/processed\processed_train.csv
+2025-09-06 21:50:06,028 - INFO - Loading data
+2025-09-06 21:50:06,323 - INFO - loading test data from artifacts/processed\processed_test.csv
+2025-09-06 21:50:06,323 - INFO - Loading data
+2025-09-06 21:50:06,567 - INFO - Data splitted successfully for Model Training
+2025-09-06 21:50:06,567 - INFO - Initializing model
+2025-09-06 21:50:06,568 - INFO - starting hyperparams tuning
+2025-09-06 21:51:23,700 - INFO - hyparam tuning completed
+2025-09-06 21:51:23,700 - INFO - Best Params are: {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-09-06 21:51:23,701 - INFO - Evaluating model
+2025-09-06 21:51:23,853 - INFO - Accuracy score: 0.8790725326991676
+2025-09-06 21:51:23,853 - INFO - Precision score: 0.865428702430078
+2025-09-06 21:51:23,853 - INFO - Recall score: 0.8977407847800237
+2025-09-06 21:51:23,853 - INFO - F1 score: 0.8812886658106689
+2025-09-06 21:51:23,856 - INFO - Output Directory created
+2025-09-06 21:51:24,041 - INFO - Model saved to artifacts/models/lgbm_model.pkl
+2025-09-06 21:51:24,041 - INFO - Model training successfully completed

@@ -1,6 +1,7 @@
 README.md
 setup.py
 config/__init__.py
+config/model_params.py
 config/paths_config.py
 projhotelres.egg-info/PKG-INFO
 projhotelres.egg-info/SOURCES.txt
@@ -10,6 +11,8 @@ projhotelres.egg-info/top_level.txt
 src/__init__.py
 src/custom_exception.py
 src/data_ingestion.py
+src/data_preprocessing.py
 src/logger.py
+src/model_training.py
 utils/__init__.py
 utils/common_functions.py
