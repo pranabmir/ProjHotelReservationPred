@@ -3,6 +3,8 @@ setup.py
 config/__init__.py
 config/model_params.py
 config/paths_config.py
+pipeline/__init__.py
+pipeline/training_pipeline.py
 projhotelres.egg-info/PKG-INFO
 projhotelres.egg-info/SOURCES.txt
 projhotelres.egg-info/dependency_links.txt
