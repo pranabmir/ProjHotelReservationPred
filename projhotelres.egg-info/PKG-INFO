@@ -14,5 +14,6 @@ Requires-Dist: imblearn
 Requires-Dist: xgboost
 Requires-Dist: lightgbm
 Requires-Dist: mlflow
+Requires-Dist: flask
 Dynamic: author
 Dynamic: requires-dist
