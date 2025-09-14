@@ -42,11 +42,11 @@ Experiments and Exploratory analysis: Jupyter notebooks
 
 ProjHotelReservationPred/  
 ├── application.py              # Entry point to run the prediction API  
-├── Dockerfile                  # Defines the Docker image for deployment  
+├── Dockerfile                  # Docker image builder  
 ├── Jenkinsfile                 # Jenkins pipeline config for CI/CD  
 ├── requirements.txt            # Python dependencies  
-├── setup.py                    # Project setup script  
-├── setuptest.py                # Setup script for running tests  
+├── setup.py                    # script for install prerequisites   
+├── setuptest.py                # Just a testfile-please ignore
 
 ├── artifacts/                  # Stores outputs of ML pipeline  
 │   ├── data/                   # Raw / processed datasets  
@@ -54,14 +54,14 @@ ProjHotelReservationPred/
 │   └── scaler/                 # Preprocessing scalers, encoders, etc.  
 
 ├── config/                     # Configurations for pipeline, paths, parameters  
-│   └── config.yaml             # Example config file  
+│   └── config.yaml             # all config paths
 
 ├── custom_jenkins/             # Jenkins customization, helpers, or scripts  
 
-├── logs/                       # Centralized log files for debugging  
+├── logs/                       # Contains logs of development
 
 ├── notebook/                   # Jupyter notebooks for EDA and experimentation  
-│   └── hotel_reservation.ipynb # Example notebook  
+│   └── hotel_reservation.ipynb # notebook for experiments
 
 ├── pipeline/                   # Pipeline scripts  
 │   ├── data_ingestion.py       # Code for fetching and preparing data  
@@ -73,7 +73,7 @@ ProjHotelReservationPred/
 │   ├── components/             # Reusable ML components  
 │   ├── entity/                 # Data classes and entities  
 │   ├── exception.py            # Custom exception handling  
-│   ├── logger.py               # Logging utilities  
-│   └── uti
+│   ├── logger.py               # Custom logging
+│   └── utils                   # utility function such as read_yaml and load_yaml
 
 
