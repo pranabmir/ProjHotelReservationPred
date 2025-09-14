@@ -55,7 +55,7 @@ COPY artifacts/models/lgbm_model.pkl /app/artifacts/models/lgbm_model.pkl
 RUN pip install --no-cache-dir -e .
 
 # Expose Flask port
-EXPOSE 5000
+EXPOSE 8080
 
 # Run the app (no retraining)
 CMD ["python", "application.py"]
